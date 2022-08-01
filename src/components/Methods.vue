@@ -19,7 +19,7 @@
 .block-card {
     width: 390px;
     background-color: #ffffff;
-    background-position: 0% 0% ;
+    background-position: 0 0 ;
 }
 
 .gir-rainbow {
@@ -52,6 +52,13 @@ p {
     font-size: 1.2rem;
     line-height: 1.7;
 }
+
+@media (max-width:1050px) {
+    p {
+        font-size: 1rem;
+    }
+}
+
 
 
 </style>

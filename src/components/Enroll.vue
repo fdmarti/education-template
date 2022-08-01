@@ -28,6 +28,14 @@ p {
     line-height: 1.7;
 }
 
+@media (max-width:1300px) {
+    h1{
+        text-align: center;
+    }
 
+    p{
+        padding: 0 30px;
+    }
+}
 
 </style>

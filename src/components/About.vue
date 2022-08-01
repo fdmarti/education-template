@@ -60,5 +60,15 @@ h2 {
     margin: 0 20px 10px;
 }
 
+@media (max-width:1450px) {
+    .pictures-about{
+        flex-direction: column;
+    }
+    .main-img {
+        width: 600px;
+        margin: 0 auto;
+    }
+}
+
 
 </style>

@@ -3,7 +3,7 @@
         <section>
             <h5>KEY FEATURES</h5>
             <h3>Service We Provide</h3>
-            <div class="cards flex">
+            <div class="cards">
                 <CardSimple v-for="(item, index) in itemsCards" :key="index" :item="item"/>
             </div>
         </section>
@@ -27,7 +27,9 @@
 }
 
 .cards {
-    justify-content: space-between;
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
 }
 
 h5,
@@ -50,5 +52,16 @@ h3 {
     font-size: 2.25rem;
     line-height: 1.2;
 }
+
+@media (max-width:1300px) {
+    .cards {
+        text-align: center;
+
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        row-gap: 20px;
+    }
+}
+
 
 </style>

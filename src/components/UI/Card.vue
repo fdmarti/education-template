@@ -68,5 +68,12 @@ a {
     font-weight: 500;
 }
 
+@media (max-width:1450px) {
+    .card{
+        margin-top: 50px;
+        max-width: 370px;
+    }
+}
+
 
 </style>
